@@ -2,6 +2,12 @@ header {
     background-color: #263F5B;
 }
 
+.header_content {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    padding: 5px;
+}
+
 #title {
     font-size: large;
 }
@@ -10,15 +16,24 @@ header {
     font-size: medium;
 }
 
-#title, #subtitle {
-    font-family: 'EB Garamond', serif;
-    color: white;
-}
-
 nav {
     background-color: #f7f7f7;
 }
 
+.nav-link {
+    color: #263F5b;
+}
+
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     background-color: #324E6e;
+}
+
+.footer_content {
+    font-size: medium;
+    font-family: 'EB Garamond', serif;
+    color: white;
 }
